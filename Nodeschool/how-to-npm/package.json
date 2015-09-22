@@ -1,0 +1,14 @@
+{
+  "name": "@abcsds/how-to-npm",
+  "version": "1.0.0",
+  "description": "tutorial for how-to-npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Alberto Barradas",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}

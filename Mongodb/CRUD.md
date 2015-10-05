@@ -31,6 +31,7 @@ Using the `$or` operator, you can specify a compound query that joins each claus
 }
 ```
 ## Update
+` db.collection.update() ` updates a single document.
 
 ## TODO:
  - cursor

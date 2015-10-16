@@ -27,6 +27,7 @@ if (Meteor.isClient) {
 if (Meteor.isServer) {
   Slingshot.createDirective("myFileUploads", Slingshot.S3Storage, {
     bucket: Meteor.settings.awsBucket,
+    // bucket: "nube-abcsds",
 
     acl: "public-read",
 

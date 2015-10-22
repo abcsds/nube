@@ -1,0 +1,9 @@
+{
+  "awsBucket": "myBucket",
+  "AWSAccessKeyId": "",
+  "region": "us-west-2",
+  "AWSSecretAccessKey": "",
+  "public": {
+    "awsBucketUrl": ""
+  }
+}

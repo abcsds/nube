@@ -3,18 +3,16 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <h1>Upload a file</h1>
 
-  {{>progressBar}}
+ {{>fileUp}}
+
 </body>
 
 
-<template name="progressBar">
-  <div class="progress">
-    <div class="progress-bar" role="progressbar" aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100" style="width: {{progress}}%;">
-      <span class="sr-only">{{progress}}% Complete</span>
-    </div>
-  </div>
+
+<template name="fileUp">
+    <input type="file" id="fileUp" name="name" value="">
 </template>
 
 <template name="myPicture">

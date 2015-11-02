@@ -4,3 +4,4 @@ npm-debug.log
 meteor/simpletodos/.meteor
 meteor/slingshot/settings.json
 lambda/arn.txt
+!lambda/CreateThumbnail/node_modules

@@ -3,3 +3,4 @@ node_modules
 npm-debug.log
 meteor/simpletodos/.meteor
 meteor/slingshot/settings.json
+lambda/arn.txt
